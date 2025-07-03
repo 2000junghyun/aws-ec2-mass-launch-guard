@@ -34,9 +34,9 @@
 
 **[3] Response Action Branching**
 
-- **Lambda: `EC2AbnormalCreation_IAMHandler`**
+- **Lambda: `AbnormalEC2Creation_IAMHandler`**
     - Applies Deny policies to the user (`boto3: iam.put_user_policy`)
     - *Action:* Restrict IAM permissions
-- **Lambda: `EC2AbnormalCreation_AccessKeyHandler`**
+- **Lambda: `AbnormalEC2Creation_AccessKeyHandler`**
     - Deactivates compromised Access Keys (`boto3: iam.update_access_key`)
     - *Action:* Disable leaked Access Keys
