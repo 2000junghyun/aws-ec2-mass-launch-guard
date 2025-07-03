@@ -4,10 +4,9 @@
 
 ## Problem Statement
 
-| **Cost Explosion** | Creating a large number of EC2 instances can result in hundreds to thousands of dollars in charges within a single day. |
-| --- | --- |
-| **Detection and Response Delay** | Even if abnormal activity is detected, resources may already be running or charges may have been incurred. |
-| **Secondary Attacks via Infrastructure** | The created instances can be used for scanning external systems, DDoS attacks, cryptocurrency mining, and more. |
+- **Cost Explosion**
+- **Detection and Response Delay**
+- **Secondary Attacks via Infrastructure**
 
 <br>
 
