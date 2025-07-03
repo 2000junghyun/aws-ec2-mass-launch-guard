@@ -11,8 +11,8 @@
 
 <br>
 ↓ (Alarm triggers notification)
-<br>
 
+<br>
 **[2] SNS Topic: `EC2AbnormalCreationAlert`**
 
 - **Subscriber 1 → Lambda: `EC2AbnormalCreation_EC2Handler`**
@@ -26,8 +26,8 @@
 
 <br>
 ↓ (Called by orchestrator Lambda)
-<br>
 
+<br>
 **[3] Response Action Branching**
 
 - **Lambda: `EC2AbnormalCreation_IAMHandler`**
