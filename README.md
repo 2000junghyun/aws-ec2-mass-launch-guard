@@ -10,9 +10,11 @@
 - Status: Switches to **ALARM**
 
 <br>
+
 ↓ (Alarm triggers notification)
 
 <br>
+
 **[2] SNS Topic: `EC2AbnormalCreationAlert`**
 
 - **Subscriber 1 → Lambda: `EC2AbnormalCreation_EC2Handler`**
@@ -25,9 +27,11 @@
     - Calls downstream security control Lambda functions
 
 <br>
+
 ↓ (Called by orchestrator Lambda)
 
 <br>
+
 **[3] Response Action Branching**
 
 - **Lambda: `EC2AbnormalCreation_IAMHandler`**
