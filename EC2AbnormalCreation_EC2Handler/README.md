@@ -2,6 +2,11 @@
 
 <br>
 
+<aside>
+💡 **목표:** 사전에 설정된 EC2 인스턴스 생성 임계치 초과 시 자동으로 EC2 인스턴스 중지/종료
+
+</aside>
+
 ## Problem Statement
 
 - **Cost Explosion**
