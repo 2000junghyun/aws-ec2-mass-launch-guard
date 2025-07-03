@@ -2,20 +2,13 @@
 
 <br>
 
-<aside>
-💡 **목표:** 사전에 설정된 EC2 인스턴스 생성 임계치 초과 시 자동으로 EC2 인스턴스 중지/종료
-
-</aside>
-
-## Problem Statement
-
-- **Cost Explosion**
-- **Detection and Response Delay**
-- **Secondary Attacks via Infrastructure**
+## Goal
+Automatically stop or terminate EC2 instances when the number of created instances exceeds a predefined threshold.
 
 <br>
 
-## Solution Overview
+## Solution
+### Overview
 
 1. Event occurs
 2. Event recorded in CloudTrail logs
@@ -26,7 +19,7 @@
 
 <br>
 
-## Lambda Function Creation
+### Lambda Function Creation
 
 **Path:** Lambda → Functions → Create function
 
@@ -38,7 +31,7 @@
 
 <br>
 
-## Lambda Function Permission Settings
+### Lambda Function Permission Settings
 
 **Path:** Configuration → Permissions → Select role under Role name → Add permissions
 
