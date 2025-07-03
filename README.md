@@ -17,7 +17,7 @@
 
 **[2] SNS Topic: `EC2AbnormalCreationAlert`**
 
-- **Subscriber 1 → Lambda: `EC2AbnormalCreation_EC2Handler`**
+- **Subscriber 1 → Lambda: `AbnormalEC2Creation_EC2Handler`**
     - Queries recently created instances (`boto3: describe_instances`)
     - Stops or terminates instances if conditions met (`boto3: stop_instances` / `terminate_instances`)
     - *Action:* Stop/terminate EC2 instances
