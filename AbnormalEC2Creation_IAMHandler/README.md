@@ -69,3 +69,11 @@ Attach the following policy named `EC2AbnormalCreation-IAM-Policy`:
 
 - Removed existing EC2-related permissions
 - Created explicit Deny policy
+
+<br>
+
+## Expected Benefits
+
+- Early detection of large-scale EC2 instance creation attacks to prevent damage spread
+- Automatic restriction of IAM permissions to block further privilege abuse by attackers
+- Reduces operational burden and significantly improves security incident response speed
